@@ -5,9 +5,10 @@
     <classes>
       <class name="com.test.Test_ninjatutorial">
         <methods>
-          <include name="f"/>
+          <include name="search"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="invalidsearch"/>
         </methods>
       </class> <!-- com.test.Test_ninjatutorial -->
     </classes>

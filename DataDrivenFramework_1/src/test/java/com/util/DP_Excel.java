@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -15,15 +16,20 @@ public class DP_Excel {
 		
 		@DataProvider(name="ValidexcelData",parallel = true)
 		public Object[][] ValidexcelDataProvider() throws IOException{
-			Object[][] arrObj = getExcelData("C:\\Selenium Basics\\DataDrivenFramework_1\\src\\test\\resources\\data.xlsx","Sheet1");
+			Object[][] arrObj = getExcelData("src\\test\\resources\\data.xlsx","Sheet1");
 			return new Object[][] { arrObj[0]};
 		}
 		
-	/*	@DataProvider(name="InValidexcelData",parallel = true)
+	@DataProvider(name="InValidexcelData",parallel = true)
 		public Object[][] InvalidexcelDataProvider() throws IOException{
-			Object[][] arrObj = getExcelData("C:\\Selenium Basics\\DataDrivenFramework_1\\src\\test\\resources\\data.xlsx","Sheet1");
-			return new Object[][] { arrObj[1],arrObj[2]};
-		}*/
+			Object[][] arrObj = getExcelData("src\\test\\resources\\data.xlsx","Sheet1");
+			return new Object[][] { arrObj[1]};
+		}
+	@DataProvider(name="InValidexcelData1",parallel = true)
+	public Object[][] InvalidExcelDataProvider() throws IOException{
+		Object[][] arrObj = getExcelData("src\\test\\resources\\data.xlsx","Sheet1");
+		return new Object[][] { arrObj[2]};
+	}
 
 		
 		public String[][] getExcelData(String fileName,String sheetName) throws IOException{
@@ -44,7 +50,9 @@ public class DP_Excel {
 				for(int j=0;j<noOfColumns;j++) {
 					row=sheet.getRow(i);
 					cell=row.getCell(j);
-					data[i-1][j]=cell.getStringCellValue();
+					DataFormatter formatter = new DataFormatter();
+					String value = formatter.formatCellValue(cell);
+					data[i-1][j]=value;		
 				}
 			}
 		}
