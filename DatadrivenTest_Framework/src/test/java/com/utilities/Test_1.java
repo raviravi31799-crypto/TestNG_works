@@ -32,7 +32,14 @@ public class Test_1 {
 			Object[][] arrobj=getExcelData("src\\test\\resources\\dataset.xlsx","Sheet1");
 			return new Object[][] {
 			arrobj[1],
-			arrobj[2]
+			
+			};
+		}
+		@DataProvider(name="Invalidpwd",parallel=true)
+		public Object[][] excelDataprovider() throws IOException{
+			Object[][] arrobj=getExcelData("src\\test\\resources\\dataset.xlsx","Sheet1");
+			return new Object[][] {
+		    arrobj[2]
 			};
 		}
 		

@@ -5,11 +5,10 @@
     <classes>
       <class name="com.test.NewTest">
         <methods>
-          <include name="afterMethod"/>
-          <include name="invalidpassword" invocation-numbers="0 1"/>
-          <include name="beforeMethod"/>
-          <include name="invalidusername" invocation-numbers="0"/>
-          <include name="f" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="Invalid"/>
+          <include name="tearDown"/>
+          <include name="Invalid1"/>
         </methods>
       </class> <!-- com.test.NewTest -->
     </classes>
