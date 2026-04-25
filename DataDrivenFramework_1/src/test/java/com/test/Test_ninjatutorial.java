@@ -88,8 +88,10 @@ public class Test_ninjatutorial {
 		driver.findElement(By.xpath("//input[@class='form-control input-lg']")).sendKeys(keyword);
 		driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']")).click();
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(15));
-		WebElement product=  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@title='iMac']")));
-        if(product.getText().contains(keyword)) {
+		WebElement product=  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()=\"iMac\"]")));
+        String title=product.getText();
+        if(title.contains(keyword))
+       {
           System.out.println("Search is valid");
         }
 		
@@ -101,8 +103,8 @@ public class Test_ninjatutorial {
 		driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']")).click();
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(15));
 		WebElement msg=  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='button-search']/following-sibling::p")));
-        msg.getText();
-        Assert.assertEquals(msg, "There is no product that matches the search criteria.");
+       String actual= msg.getText();
+        Assert.assertEquals(actual, "There is no product that matches the search criteria.");
          System.out.println("Search is invalid");
         }
 		

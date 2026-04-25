@@ -3,7 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <parameter name="keyword" value="Mac"></parameter>
-  
   <parameter name="invalidkeyword" value="note"></parameter>
     <classes>
       <class name="com.test.Test_ninjatutorial"/>
