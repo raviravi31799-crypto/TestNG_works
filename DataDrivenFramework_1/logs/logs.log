@@ -1,0 +1,30 @@
+[DEBUG] 2026-04-26 12:01:00.931 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-26 12:01:00.945 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-26 12:01:00.952 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-26 12:01:41.355 [TestNG-PoolService-1] Test_ninjatutorial - Launching browser with Tutorialsninja
+[DEBUG] 2026-04-26 12:01:58.980 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-26 12:01:58.982 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-26 12:01:58.984 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-26 12:02:08.477 [TestNG-PoolService-1] Test_ninjatutorial - Launching browser with Tutorialsninja
+[INFO ] 2026-04-26 12:02:14.510 [main] Test_ninjatutorial - Launching browser with Tutorialsninja
+[INFO ] 2026-04-26 12:02:15.412 [main] Test_ninjatutorial - Invalid search with keyword
+[DEBUG] 2026-04-26 12:02:15.715 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-26 12:02:15.717 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-26 12:02:15.719 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-26 12:02:18.401 [TestNG-PoolService-1] Test_ninjatutorial - Launching browser with Tutorialsninja
+[INFO ] 2026-04-26 12:02:22.984 [main] Test_ninjatutorial - Launching browser with Tutorialsninja
+[DEBUG] 2026-04-28 05:44:06.337 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 05:44:06.348 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 05:44:06.349 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 05:44:16.696 [TestNG-PoolService-1] Test_ninjatutorial - Launching browser with Tutorialsninja
+[DEBUG] 2026-04-28 05:44:20.462 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 05:44:20.466 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 05:44:20.469 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 05:44:24.300 [TestNG-PoolService-1] Test_ninjatutorial - Launching browser with Tutorialsninja
+[INFO ] 2026-04-28 05:44:34.186 [main] Test_ninjatutorial - Launching browser with Tutorialsninja
+[INFO ] 2026-04-28 05:44:35.007 [main] Test_ninjatutorial - Invalid search with keyword
+[DEBUG] 2026-04-28 05:44:35.305 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 05:44:35.308 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 05:44:35.310 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 05:44:38.261 [TestNG-PoolService-1] Test_ninjatutorial - Launching browser with Tutorialsninja
+[INFO ] 2026-04-28 05:44:44.274 [main] Test_ninjatutorial - Launching browser with Tutorialsninja

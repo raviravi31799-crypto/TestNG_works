@@ -7,9 +7,11 @@
     <classes>
       <class name="com.test.Test_ninjatutorial">
         <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="invalidusername" invocation-numbers="0"/>
+          <include name="invalidpassword" invocation-numbers="0"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="invalidsearch" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.test.Test_ninjatutorial -->
     </classes>

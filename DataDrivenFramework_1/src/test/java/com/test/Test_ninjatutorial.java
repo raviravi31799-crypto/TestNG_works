@@ -4,12 +4,15 @@ import org.testng.annotations.Test;
 
 import com.util.DP_Excel;
 
+import jdk.internal.org.jline.utils.Log;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +24,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 public class Test_ninjatutorial {
+	
 	WebDriver driver;
+	public static Logger log=LogManager.getLogger(Test_ninjatutorial.class);
 	private static final ThreadLocal <WebDriver> driver1=new ThreadLocal <WebDriver>();
 	
 	  @BeforeMethod
@@ -31,6 +36,7 @@ public class Test_ninjatutorial {
 		  driver1.set(driver);
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		  driver.get("https://tutorialsninja.com/demo/");
+		  log.info("Launching browser with Tutorialsninja");
 		  driver.manage().window().maximize();
 	  }
 	
@@ -50,6 +56,7 @@ public class Test_ninjatutorial {
 			String msg1="Logout";
 			Assert.assertEquals(msg1, msg,"Login successful");
 			System.out.println("Login successful");
+			Log.info("Login with valid credentials");
 		
 		    }
 		@Test(dataProvider="InValidexcelData",dataProviderClass=DP_Excel.class)//@Test(dataProvider="excelData",dataProviderClass=Test_1.class,indices{0})
@@ -65,6 +72,7 @@ public class Test_ninjatutorial {
 		       String msg1="Warning: No match for E-Mail Address and/or Password.";
 			  Assert.assertEquals(msg1, msg,"Login failed");
 			  System.out.println(" Invalid Login successful");
+			  Log.info("Login with invalid username");
 			}
 	@Test(dataProvider="InValidexcelData1",dataProviderClass=DP_Excel.class)
 		  public void invalidpassword(String username,String password) {
@@ -80,6 +88,7 @@ public class Test_ninjatutorial {
 		       String msg1="Warning: No match for E-Mail Address and/or Password.";
 			  Assert.assertEquals(msg1, msg,"Login failed");
 			  System.out.println(" Invalid Login_1 successful");
+			  Log.info("Login with invalid password");
 			}
 	
 	@Test
@@ -106,6 +115,7 @@ public class Test_ninjatutorial {
        String actual= msg.getText();
         Assert.assertEquals(actual, "There is no product that matches the search criteria.");
          System.out.println("Search is invalid");
+         log.info("Invalid search with keyword");
         }
 		
 	

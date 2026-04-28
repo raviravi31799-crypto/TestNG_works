@@ -6,6 +6,9 @@
       <class name="com.test.Test_ninjatutorial">
         <methods>
           <include name="search"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="invalidusername"/>
+          <include name="invalidpassword"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
           <include name="invalidsearch"/>

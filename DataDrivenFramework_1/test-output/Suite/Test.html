@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 25 21:22:44 IST 2026</td>
+<td>Started on:</td><td>Tue Apr 28 05:44:05 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38695 ms)</td>
+<tr><td>Total time:</td><td>39 seconds (39739 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,84 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.Test_ninjatutorial.f()'><b>f</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: joshitha@gmail.com, 12345</td>
+<td><div><pre>java.lang.IllegalAccessError: class com.test.Test_ninjatutorial (in unnamed module @0x3d012ddd) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x3d012ddd
+	at com.test.Test_ninjatutorial.f(Test_ninjatutorial.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1306859693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1306859693'><pre>java.lang.IllegalAccessError: class com.test.Test_ninjatutorial (in unnamed module @0x3d012ddd) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x3d012ddd
+	at com.test.Test_ninjatutorial.f(Test_ninjatutorial.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>3</td>
+<td>com.test.Test_ninjatutorial@1e097d59</td></tr>
+<tr>
+<td title='com.test.Test_ninjatutorial.invalidpassword()'><b>invalidpassword</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: joshitha@gmail.com, 123456</td>
+<td><div><pre>java.lang.IllegalAccessError: class com.test.Test_ninjatutorial (in unnamed module @0x3d012ddd) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x3d012ddd
+	at com.test.Test_ninjatutorial.invalidpassword(Test_ninjatutorial.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace525752764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace525752764'><pre>java.lang.IllegalAccessError: class com.test.Test_ninjatutorial (in unnamed module @0x3d012ddd) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x3d012ddd
+	at com.test.Test_ninjatutorial.invalidpassword(Test_ninjatutorial.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>2</td>
+<td>com.test.Test_ninjatutorial@1e097d59</td></tr>
+<tr>
+<td title='com.test.Test_ninjatutorial.invalidusername()'><b>invalidusername</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: josh@gmail.com, 12345</td>
+<td><div><pre>java.lang.IllegalAccessError: class com.test.Test_ninjatutorial (in unnamed module @0x3d012ddd) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x3d012ddd
+	at com.test.Test_ninjatutorial.invalidusername(Test_ninjatutorial.java:75)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1707344138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1707344138'><pre>java.lang.IllegalAccessError: class com.test.Test_ninjatutorial (in unnamed module @0x3d012ddd) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x3d012ddd
+	at com.test.Test_ninjatutorial.invalidusername(Test_ninjatutorial.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>2</td>
+<td>com.test.Test_ninjatutorial@1e097d59</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,35 +154,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.test.Test_ninjatutorial.search()'><b>search</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: Mac</td>
+<td></td>
+<td>1</td>
+<td>com.test.Test_ninjatutorial@1e097d59</td></tr>
+<tr>
 <td title='com.test.Test_ninjatutorial.invalidsearch()'><b>invalidsearch</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: note</td>
 <td></td>
 <td>0</td>
-<td>com.test.Test_ninjatutorial@22ff4249</td></tr>
-<tr>
-<td title='com.test.Test_ninjatutorial.invalidpassword()'><b>invalidpassword</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: joshitha@gmail.com, 123456</td>
-<td></td>
-<td>1</td>
-<td>com.test.Test_ninjatutorial@22ff4249</td></tr>
+<td>com.test.Test_ninjatutorial@1e097d59</td></tr>
 <tr>
 <td title='com.util.DP_Excel.f()'><b>f</b><br>Test class: com.util.DP_Excel</td>
 <td></td>
 <td>0</td>
-<td>com.util.DP_Excel@fbd1f6</td></tr>
-<tr>
-<td title='com.test.Test_ninjatutorial.f()'><b>f</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: joshitha@gmail.com, 12345</td>
-<td></td>
-<td>2</td>
-<td>com.test.Test_ninjatutorial@22ff4249</td></tr>
-<tr>
-<td title='com.test.Test_ninjatutorial.search()'><b>search</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: Mac</td>
-<td></td>
-<td>0</td>
-<td>com.test.Test_ninjatutorial@22ff4249</td></tr>
-<tr>
-<td title='com.test.Test_ninjatutorial.invalidusername()'><b>invalidusername</b><br>Test class: com.test.Test_ninjatutorial<br>Parameters: josh@gmail.com, 12345</td>
-<td></td>
-<td>2</td>
-<td>com.test.Test_ninjatutorial@22ff4249</td></tr>
+<td>com.util.DP_Excel@39a2bb97</td></tr>
 </table><p>
 </body>
 </html>
