@@ -1,0 +1,22 @@
+[INFO ] 2026-04-28 11:04:29.478 [main] Testlisteners - Browser is launching tutorialsninja
+[INFO ] 2026-04-28 11:04:32.173 [main] Testlisteners - Login
+[INFO ] 2026-04-28 11:04:36.298 [main] Testlisteners - Closing browser
+[INFO ] 2026-04-28 11:09:49.015 [main] Testlisteners - Browser is launching tutorialsninja
+[INFO ] 2026-04-28 11:09:55.021 [main] Testlisteners - Login
+[INFO ] 2026-04-28 11:09:57.042 [main] Testlisteners - Closing browser
+[INFO ] 2026-04-28 12:45:33.283 [main] Testlisteners - Browser is launching tutorialsninja
+[INFO ] 2026-04-28 12:45:45.819 [main] Testlisteners - Login
+[INFO ] 2026-04-28 12:45:46.506 [main] Testlisteners - Closing browser
+[INFO ] 2026-04-29 09:13:58.873 [main] Testlisteners - Browser is launching tutorialsninja
+[INFO ] 2026-04-29 09:14:17.604 [main] Testlisteners - Login
+[INFO ] 2026-04-29 09:14:20.136 [main] Testlisteners - Closing browser
+[INFO ] 2026-04-29 09:14:54.415 [main] Testlisteners - Browser is launching tutorialsninja
+[INFO ] 2026-04-29 09:14:57.468 [main] listeners_fail - loginTest test started
+[INFO ] 2026-04-29 09:14:57.479 [main] Testlisteners - Login
+[INFO ] 2026-04-29 09:14:58.495 [main] listeners_fail - Test PASSED: loginTest
+[INFO ] 2026-04-29 09:14:58.498 [main] Testlisteners - Closing browser
+[INFO ] 2026-04-29 09:15:24.464 [main] Testlisteners - Browser is launching tutorialsninja
+[INFO ] 2026-04-29 09:15:27.734 [main] listeners_fail - loginTest test started
+[INFO ] 2026-04-29 09:15:27.744 [main] Testlisteners - Login
+[INFO ] 2026-04-29 09:15:29.589 [main] listeners_fail - Test PASSED: loginTest
+[INFO ] 2026-04-29 09:15:29.593 [main] Testlisteners - Closing browser
