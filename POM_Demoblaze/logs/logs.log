@@ -1,0 +1,28 @@
+[INFO ] 2026-04-29 21:51:32.578 [main] BaseTest - Launching demoblaze in chrome
+[INFO ] 2026-04-29 21:51:37.479 [main] BaseTest - Quitting browser
+[INFO ] 2026-04-29 21:52:12.412 [main] BaseTest - Launching demoblaze in chrome
+[INFO ] 2026-04-29 21:52:16.547 [main] BaseTest - Quitting browser
+[INFO ] 2026-04-29 22:06:03.780 [main] BaseTest - Launching demoblaze in chrome
+[INFO ] 2026-04-29 22:06:08.899 [main] CategoriespageTest - Object of category page
+[INFO ] 2026-04-29 22:06:08.944 [main] CategoriespageTest - Validating category page visibility
+[INFO ] 2026-04-29 22:06:08.960 [main] BaseTest - Quitting browser
+[INFO ] 2026-04-30 05:32:06.546 [main] BaseTest - Launching demoblaze in chrome
+[INFO ] 2026-04-30 05:32:15.836 [main] CategoriespageTest - Object of category page
+[INFO ] 2026-04-30 05:32:15.884 [main] CategoriespageTest - Validating category page visibility
+[INFO ] 2026-04-30 05:32:15.898 [main] BaseTest - Quitting browser
+[INFO ] 2026-04-30 06:58:22.018 [main] BaseTest - Launching demoblaze in chrome
+[INFO ] 2026-04-30 06:58:32.685 [main] LoginTest - Login Action
+[INFO ] 2026-04-30 06:58:34.710 [main] LoginTest - Validating login
+[INFO ] 2026-04-30 06:58:34.721 [main] BaseTest - Quitting browser
+[DEBUG] 2026-04-30 06:58:35.529 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-30 06:58:35.536 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-30 06:58:36.165 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-30 06:58:36.167 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-30 09:13:32.377 [main] BaseTest - Launching demoblaze in chrome
+[INFO ] 2026-04-30 09:13:54.538 [main] LoginTest - Login Action
+[INFO ] 2026-04-30 09:13:54.594 [main] LoginTest - Validating login
+[INFO ] 2026-04-30 09:13:54.606 [main] BaseTest - Quitting browser
+[DEBUG] 2026-04-30 09:13:55.283 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-30 09:13:55.287 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-30 09:13:55.884 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-30 09:13:55.887 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
